@@ -125,7 +125,12 @@ $transparent: #ffffff00;
             }
 
             i {
-                font-size: 40px;
+                background: #009CC0;
+                border-radius: 100%;
+                color: #fff;
+                text-align: center;
+                padding: 1px 10px;
+                font-size: 35px;
                 display: none;
                 z-index: 2;
 

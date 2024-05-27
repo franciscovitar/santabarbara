@@ -60,6 +60,28 @@
         }
 
 
+        a {
+            cursor: pointer;
+            background: #009CC0;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 600;
+            margin-left: 10px;
+            padding: 12px 30px;
+            border-radius: 6px;
+
+            &:hover {
+                background: #0491b1;
+                color: rgb(255, 255, 255);
+            }
+
+            @media(max-width: 480px) {
+                font-size: 14px;
+                padding: 13px 20px;
+            }
+        }
+
         h2 {
             font-weight: 800;
             font-size: 48px;
