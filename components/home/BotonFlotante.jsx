@@ -22,7 +22,7 @@ function BotonFlotante() {
         target="blank"
       >
         <i className="bi bi-whatsapp"></i>
-        <span> Escríbenos!</span>
+        <span> Escribinos!</span>
       </motion.a>
     </div>
   );

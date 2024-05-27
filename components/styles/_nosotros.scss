@@ -2,7 +2,7 @@
     margin-top: 200px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 40px;
 
     @media(max-width: 1000px) {
@@ -21,6 +21,7 @@
 
     .texto {
         display: flex;
+        align-items: center;
         gap: 30px;
 
         @media(max-width: 1000px) {
@@ -39,6 +40,8 @@
 
         .imagen {
             width: 50%;
+            box-shadow: 1px 1px 50px #8b8b8b;
+            border-radius: 5px;
 
             @media(max-width: 1000px) {
                 width: 100%;
@@ -46,7 +49,7 @@
             }
 
             img {
-                border-radius: 10px;
+                border-radius: 5px;
                 height: auto;
                 width: 100%;
             }
@@ -54,7 +57,7 @@
     }
 
     span {
-        color: rgb(37, 99, 235);
+        color: #009CC0;
         font-weight: 600;
         font-size: 16px;
 

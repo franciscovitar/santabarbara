@@ -3,7 +3,7 @@
 import React from "react";
 import "../styles/_maps.scss";
 import Image from "next/image";
-import maps from "../../Images/image.png";
+import maps from "../../Images/mapa.png";
 import { motion } from "framer-motion";
 
 const imageVariants = {
@@ -31,7 +31,7 @@ function Maps() {
       <motion.div {...imageVariants} className="imagen">
         <a
           target="blank"
-          href="https://www.google.com/maps/place/Laboratorio+DEL+SUR+An%C3%A1lisis+Cl%C3%ADnicos/@-34.709188,-58.390198,16z/data=!4m6!3m5!1s0x95bccd2349da42d1:0x5137a310ec6e1bbc!8m2!3d-34.7091885!4d-58.3901978!16s%2Fg%2F11bz__h1w4?hl=es-419&entry=ttu"
+          href="https://www.google.com/maps/search/Paso+de+la+Patria+139+J.+M.+Ezeiza,+Provincia+de+Buenos+Aires./@-34.8535094,-58.5196847,19z?hl=es-419&entry=ttu"
         >
           <Image src={maps} />
         </a>

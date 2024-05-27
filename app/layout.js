@@ -1,9 +1,12 @@
-import { Jost } from "next/font/google";
+import { Karla } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-const inter = Jost({ subsets: ["latin"] });
+const inter = Karla({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "700", "800"],
+});
 
 export const metadata = {
   title: "Santa Barbara",

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import nosotros from "../../Images/fachada.png";
+import nosotros from "../../Images/fachada.jpg";
 import "../styles/_nosotros.scss";
 import { motion } from "framer-motion";
 
@@ -36,31 +36,37 @@ function Nosotros() {
       <div className="texto">
         <div className="parrafos">
           <motion.p {...textVariants}>
-            Desde 19…. somos el laboratorio de análisis clínicos y microbiología
+            Desde <strong>1996</strong>, somos el{" "}
+            <strong>laboratorio de análisis clínicos y microbiología</strong>{" "}
             referente en la zona.
           </motion.p>
           <motion.p {...textVariants}>
-            Santa Bárbara creció bajo la Dirección técnica del Dr. Ramón Bañón
-            Tortosa y en la actualidad continúa prestando los mismos servicios
-            de calidad con la Codirección Técnica de las Dras. Delia Martínez y
-            Alejandra Carreras Cafora.
+            Santa Bárbara creció bajo la <strong>Dirección técnica</strong> del{" "}
+            <strong>Dr. Ramón Bañón Tortosa</strong> y en la actualidad continúa
+            prestando los mismos <strong>servicios de calidad</strong> con la{" "}
+            <strong>Codirección Técnica</strong> de las{" "}
+            <strong>Dra. Delia Martínez</strong> y{" "}
+            <strong>Alejandra Carreras Cafora</strong>.
           </motion.p>
           <motion.p {...textVariants}>
-            Nos guía un profundo compromiso con la salud de nuestros pacientes y
-            por eso cuidamos la calidez en la atención y nuestra ética
-            profesional.{" "}
+            Nos guía un profundo <strong>compromiso con la salud</strong> de
+            nuestros pacientes y por eso cuidamos la{" "}
+            <strong>calidez en la atención</strong> y nuestra{" "}
+            <strong>ética profesional</strong>.
           </motion.p>
           <motion.p {...textVariants}>
-            Conformamos un grupo humano de trabajo calificado que brinda un
-            servicio de salud de excelencia, mediante la entrega de informes con
-            resultados confiables y de calidad para nuestros pacientes y los
-            profesionales de la salud.
+            Conformamos un <strong>grupo humano</strong> de trabajo calificado
+            que brinda un <strong>servicio de salud de excelencia</strong>,
+            mediante la entrega de{" "}
+            <strong>informes con resultados confiables</strong> y de calidad
+            para nuestros pacientes y los profesionales de la salud.
           </motion.p>
           <motion.p {...textVariants}>
-            Brindamos atención personalizada, en tiempo oportuno, procurando
-            satisfacer las necesidades de nuestros pacientes, con la
-            incorporación de innovación y la mejora en la tecnología aplicada a
-            nuestros procesos.
+            Brindamos <strong>atención personalizada</strong>, en tiempo
+            oportuno, procurando satisfacer las necesidades de nuestros
+            pacientes, con la incorporación de <strong>innovación</strong> y la
+            mejora en la <strong>tecnología aplicada</strong> a nuestros
+            procesos.
           </motion.p>
         </div>
         <motion.div {...imageVariants} className="imagen">
