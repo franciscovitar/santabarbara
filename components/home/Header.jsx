@@ -27,14 +27,14 @@ function Header() {
         <motion.a
           {...textVariants}
           target="blank"
-          href="https://www.linkedin.com/company/laboratorio-del-sur/"
+          href="https://www.linkedin.com/in/lab-santa-b%C3%A1rbara-an%C3%A1lisis-cl%C3%ADnicos-2851a330b/"
         >
           <i className="bi bi-linkedin"></i>
         </motion.a>
         <motion.a
           {...textVariants}
           target="blank"
-          href="https://www.instagram.com/laboratoriodelsur/"
+          href="https://www.instagram.com/laboratorio_santa_barbara/"
         >
           <i className="bi bi-instagram"></i>
         </motion.a>

@@ -20,6 +20,11 @@ function Coberturas({ searchTerm }) {
         "INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS",
     },
     { titulo: "SANCOR", significado: "SANCOR SALUD" },
+    {
+      titulo: "DIRECCIÓN DE OBRA SOCIAL DEL SERVICIO PENITENCIARIO FEDERAL",
+      significado:
+        "DIRECCIÓN DE OBRA SOCIAL DEL SERVICIO PENITENCIARIO FEDERAL",
+    },
     { titulo: "SWISS MEDICAL", significado: "SWISS MEDICAL" },
     { titulo: "AMCI", significado: "ASOCIACION MUTUAL DEL CONTROL INTEGRAL" },
     {

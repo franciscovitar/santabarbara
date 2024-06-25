@@ -78,7 +78,9 @@ const NavBar = () => {
             <a title="Productos" href="/#resultados">
               Resultados Online
             </a>
-
+            <a title="Indicaciones" href="/#indicaciones">
+              Indicaciones de Estudios
+            </a>
             <a title="Preguntas" href="/#preguntas">
               Preguntas Frecuentes
             </a>
@@ -100,7 +102,9 @@ const NavBar = () => {
             <a onClick={handleClick} title="Productos" href="/#resultados">
               Resultados Online
             </a>
-
+            <a onClick={handleClick} title="Indicaciones" href="/#indicaciones">
+              Indicaciones de Estudios
+            </a>
             <a onClick={handleClick} title="Preguntas" href="/#preguntas">
               Preguntas Frecuentes
             </a>

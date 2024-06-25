@@ -30,24 +30,17 @@ function Nosotros() {
     <div id="nosotros" className="nosotros-container">
       <motion.div {...textVariants} className="titulo">
         <span>NOSOTROS</span>
-        <h3>Calidad, responsabilidad y profesionalismo desde 19…</h3>
+        <h3>Calidad, responsabilidad y profesionalismo desde 1994</h3>
       </motion.div>
 
       <div className="texto">
         <div className="parrafos">
           <motion.p {...textVariants}>
-            Desde <strong>1996</strong>, somos el{" "}
+            Desde <strong>1994</strong>, somos el{" "}
             <strong>laboratorio de análisis clínicos y microbiología</strong>{" "}
             referente en la zona.
           </motion.p>
-          <motion.p {...textVariants}>
-            Santa Bárbara creció bajo la <strong>Dirección técnica</strong> del{" "}
-            <strong>Dr. Ramón Bañón Tortosa</strong> y en la actualidad continúa
-            prestando los mismos <strong>servicios de calidad</strong> con la{" "}
-            <strong>Codirección Técnica</strong> de las{" "}
-            <strong>Dra. Delia Martínez</strong> y{" "}
-            <strong>Alejandra Carreras Cafora</strong>.
-          </motion.p>
+
           <motion.p {...textVariants}>
             Nos guía un profundo <strong>compromiso con la salud</strong> de
             nuestros pacientes y por eso cuidamos la{" "}

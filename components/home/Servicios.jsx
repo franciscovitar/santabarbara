@@ -57,7 +57,7 @@ function Servicios() {
             <p className="ms-3">
               Reciba sus resultados de forma rápida y segura a través del
               siguiente{" "}
-              <a href="https://delsur.kernitcloud.com/#/login/paciente">
+              <a href="https://portalderesultados.kernitcloud.com/#/login/paciente">
                 sitio
               </a>
               .
@@ -72,7 +72,7 @@ function Servicios() {
               ocupacionales, anuales y otros servicios. <br />
               Consultanos{" "}
               <a href="mailto:info@laboratoriodelsur.com.ar">
-                info@labdelsur.com.ar.
+                lab_santabarbara@hotmail.com
               </a>
             </p>
           </motion.div>
