@@ -20,7 +20,7 @@ function Header() {
         <motion.a
           {...textVariants}
           target="blank"
-          href="https://www.facebook.com/delsurlaboratorio"
+          href="https://www.facebook.com/profile.php?id=61560010513786"
         >
           <i className="bi bi-facebook"></i>
         </motion.a>

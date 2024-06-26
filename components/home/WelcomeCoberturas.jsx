@@ -31,9 +31,9 @@ function WelcomeCoberturas({ setSearchTerm, searchTerm }) {
   return (
     <div id="inicio" className="home-welcome coberturas-welcome">
       <div className="contenedor">
-        <motion.h2 {...textVariants}>OBRAS SOCIALES</motion.h2>
+        <motion.h2 {...textVariants}>COBERTURAS</motion.h2>
         <motion.p {...textVariants}>
-          Atendemos más de 50 obras sociales
+          Atendemos más de 50 obras sociales y prepagas
         </motion.p>
 
         <motion.input

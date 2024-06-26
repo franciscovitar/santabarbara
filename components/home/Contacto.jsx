@@ -35,7 +35,10 @@ function Contacto() {
           <a href="/obras-sociales">Coberturas</a>
         </motion.div>
         <motion.div {...imageVariants} className="iconos">
-          <a target="blank" href="https://www.facebook.com/delsurlaboratorio">
+          <a
+            target="blank"
+            href="https://www.facebook.com/profile.php?id=61560010513786"
+          >
             <i className="bi bi-facebook"></i>
           </a>
           <a

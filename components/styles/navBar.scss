@@ -65,16 +65,17 @@ $transparent: #ffffff00;
 
                     .logo_time {
                         transition: all 1s ease;
-                        width: 250px;
-                        height: 130px;
-                        margin: 0;
+                        width: auto;
+                        height: 110px;
+                        margin: 20px 0 0 0;
                         object-fit: contain;
+                        border-radius: 100%;
 
-                        @media (max-width: 600px) {
+                        @media (max-width: 500px) {
                             transition: all 1s ease;
-                            width: 140px;
-                            // height: 100px;
-                            margin: 0;
+                            // width: 140px;
+                            height: 90px;
+                            // margin: 0;
                         }
                     }
 

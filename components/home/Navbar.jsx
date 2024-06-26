@@ -75,16 +75,19 @@ const NavBar = () => {
             <a title="Empresa" href="/#nosotros">
               Nosotros
             </a>
-            <a title="Productos" href="/#resultados">
+            <a
+              title="Productos"
+              href="https://portalderesultados.kernitcloud.com/#/login/paciente"
+            >
               Resultados Online
             </a>
-            <a title="Indicaciones" href="/#indicaciones">
+            <a title="Indicaciones" href="/indicaciones">
               Indicaciones de Estudios
             </a>
-            <a title="Preguntas" href="/#preguntas">
+            <a title="Preguntas" href="/preguntas-frecuentes">
               Preguntas Frecuentes
             </a>
-            <a title="Obras sociales" href="/#coberturas">
+            <a title="Obras sociales" href="/obras-sociales">
               Coberturas
             </a>
           </div>
@@ -99,16 +102,28 @@ const NavBar = () => {
             <a onClick={handleClick} title="Empresa" href="/#nosotros">
               Nosotros
             </a>
-            <a onClick={handleClick} title="Productos" href="/#resultados">
+            <a
+              onClick={handleClick}
+              title="Productos"
+              href="https://portalderesultados.kernitcloud.com/#/login/paciente"
+            >
               Resultados Online
             </a>
-            <a onClick={handleClick} title="Indicaciones" href="/#indicaciones">
+            <a onClick={handleClick} title="Indicaciones" href="/indicaciones">
               Indicaciones de Estudios
             </a>
-            <a onClick={handleClick} title="Preguntas" href="/#preguntas">
+            <a
+              onClick={handleClick}
+              title="Preguntas"
+              href="/preguntas-frecuentes"
+            >
               Preguntas Frecuentes
             </a>
-            <a onClick={handleClick} title="Obras sociales" href="/#coberturas">
+            <a
+              onClick={handleClick}
+              title="Obras sociales"
+              href="/obras-sociales"
+            >
               Coberturas
             </a>
           </div>
