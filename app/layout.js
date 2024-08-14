@@ -10,16 +10,16 @@ const inter = Karla({
 
 export const metadata = {
   title:
-    "Santa Barbara | Análisis Clínicos y Microbiológicos de Calidad en Lanús",
+    "Santa Barbara | Análisis Clínicos y Microbiológicos de Calidad en Ezeiza",
   description:
-    "Santa Barbara ofrece análisis clínicos y microbiológicos de baja, mediana y alta complejidad en Lanús. Servicios de hisopados, extracciones a domicilio, resultados online y atención a empresas e instituciones.",
+    "Santa Barbara ofrece análisis clínicos y microbiológicos de baja, mediana y alta complejidad en Ezeiza. Servicios de hisopados, extracciones a domicilio, resultados online y atención a empresas e instituciones.",
   keywords: [
     "análisis clínicos",
     "análisis microbiológicos",
     "hisopados COVID-19",
     "extracciones a domicilio",
     "resultados online",
-    "laboratorio Lanús",
+    "laboratorio Ezeiza",
     "exámenes pre ocupacionales",
     "servicios de salud",
     "calidad en análisis clínicos",
