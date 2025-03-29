@@ -92,7 +92,7 @@ function PreguntasFrecuentes({ searchTerm }) {
     {
       pregunta: "¿Qué validez tienen las recetas?",
       respuesta:
-        "SWISS MEDICAL, OSDEPYM: 90 días.\nOSDE, GALENO, OMINT: 60 días.\nDIRECCIÓN NACIONAL DEL SERVICIO PENITENCIARIO FEDERAL, PREVENCIÓN SALUD, OSMECON: 30 días.\nIOMA: 90 días desde su autorización.\nPAMI: Las Órdenes Médicas Electrónicas tienen una vigencia de 150 días. La validez de las recetas varía según su cobertura. Puede consultar por WhatsApp al 11-3267-9819.",
+        "SWISS MEDICAL: 90 días.\nOSDE, GALENO, OMINT, OSDEPYM: 60 días.\nPREVENCIÓN SALUD, OSMECON, HOMINIS, SPF: 30 días.\nIOMA: 60 días desde su emisión, ese plazo abarca la autorización y la realización de los análisis en el laboratorio.\nPAMI: Las Órdenes Médicas Electrónicas tienen una vigencia de 150 días.",
     },
     {
       pregunta: "¿Puede retirar mis resultados otra persona?",
