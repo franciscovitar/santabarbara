@@ -98,6 +98,10 @@ function Coberturas({ searchTerm }) {
         "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE SANIDAD LUIS PASTEUR",
     },
     {
+      titulo: "MEDICUS",
+      significado: "MEDICUS S.A. DE ASISTENCIA MÉDICA Y CIENTÍFICA",
+    },
+    {
       titulo: "OPDEA",
       significado:
         "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE EMPRESAS DE LA ALIMENTACION",
